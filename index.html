@@ -1,1 +1,38 @@
-<h1>foobar</h1>
+<script>
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('#galleria');
+
+    Galleria.configure({
+        imageCrop: true,
+        transition: 'fade'
+    });
+</script>
+
+
+<h1>simple</h1>
+<div id="galleria">
+    <img src="/img/pic1.jpg" data-title="My title" data-description="My description">
+    <img src="/img/pic2.jpg" data-title="Another title" data-description="My <em>HTML</em> description">
+</div>
+
+<h1>separate thumbnails (recommended</h1>
+<div id="galleria">
+    <a href="/img/large1.jpg"><img src="/img/thumb1.jpg" data-title="My title" data-description="My description"></a>
+    <a href="/img/large2.jpg"><img src="/img/thumb2.jpg" data-title="Another title" data-description="My <em>HTML</em> description"></a>
+</div>
+
+
+<h1>separate larger image for fullscreen</h1>
+<div id="galleria">
+    <a href="/img/large1.jpg"><img src="/img/thumb1.jpg" data-big="/img/big1.jpg" data-title="My title" data-description="My description"></a>
+    <a href="/img/large2.jpg"><img src="/img/thumb2.jpg" data-big="/img/big2.jpg" data-title="Another title" data-description="My <em>HTML</em> description"></a>
+</div>
+
+
+<h1>Adding video from YouTube, Vimeo or Dailymotion is easy</h1>
+<div id="galleria">
+    <a href="http://www.youtube.com/watch?v=GCZrz8siv4Q"><img src="/img/thumb1.jpg"></a>
+    <a href="http://vimeo.com/12309423"><span class="video">Watch this on Vimeo!</span></a>
+</div>
+
+
