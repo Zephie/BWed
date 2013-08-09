@@ -1,0 +1,205 @@
+INDEX-----
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RBWed</title>
+
+    <link href="RB_CSS.css" rel="stylesheet" type="text/css">
+
+    <link type="text/css" rel="stylesheet" href="./css/galleria.css">
+    <link type="text/css" rel="stylesheet" href="./js/galleria/themes/classic/galleria.classic.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="./js/galleria/galleria-1.2.9.min.js"></script>    
+    <script>
+
+        Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');
+        Galleria.run('#galleria');
+
+    </script>
+
+</head>
+<body>
+ <div id="webwrapper">
+    <div id="header">
+        <div id="left_block"></div>
+        <div id="center_block">
+            <div id="center1"></div>
+            <div id="center2"></div>
+          <div id="center3"></div>
+        </div>
+        <div id="right_block">
+            <div id="right1"></div>
+            <div id="right2"></div>
+        </div>
+    </div>
+  <div id="mid_content">
+      <div id="big_spacer"></div>
+      <div id="content">
+
+
+        <div id="galleria">
+            <img src="https://raw.github.com/Zephie/BWed/gh-pages/img/img1.jpg" data-title="My title" data-description="My description">
+            <img src="https://raw.github.com/Zephie/BWed/gh-pages/img/img2.jpg" data-title="Another title" data-description="My <em>HTML</em> description">
+        </div>
+
+
+      </div>
+    <div id="big_spacer"></div>
+    <div id="content_right">
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Home</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Pictures</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Videos</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Our Story</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Upload</p>
+        </div>
+        <div id="random_blck"></div>
+    </div>
+      <div id="big_spacer2"></div>
+  </div>
+  <div id="lower_spacer">
+      <div id="lower1"></div>
+    <div id="lower2"></div>
+    <div id="lower3"></div>
+  </div>
+ </div>
+ <div id="content_lower">
+     <div id="bottom_left">
+         <div id="bot1_LTop"></div>
+        <div id="bot1_MTop"></div>
+        <div id="bot1_RTop"></div>
+        <div id="bot1_Mid"></div>
+        <div id="bot1_LBot"></div>
+        <div id="bot1_MBot"></div>
+        <div id="bot1_RBot"></div>
+     </div>
+     <div id="bottom_right">
+         <div id="bot2_LTop"></div>
+        <div id="bot2_MTop"></div>
+        <div id="bot2_RTop"></div>
+        <div id="bot2_Mid"></div>
+        <div id="bot2_LBot"></div>
+        <div id="bot2_MBot"></div>
+        <div id="bot2_RBot"></div>
+    </div>
+ </div>
+ <div id="footer">
+     <p style="text-align:center; color: white;">Phone: 123-456-7890 | E-Mail: name@gmail.com
+    </p>
+ </div>
+</body>
+</html>
+
+VIDEOS----
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RBWed</title>
+
+    <link href="RB_CSS.css" rel="stylesheet" type="text/css">
+
+    <link type="text/css" rel="stylesheet" href="./css/galleria.css">
+    <link type="text/css" rel="stylesheet" href="./js/galleria/themes/classic/galleria.classic.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="./js/galleria/galleria-1.2.9.min.js"></script>    
+    <script>
+
+        Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');
+        Galleria.run('#galleria');
+
+    </script>
+
+</head>
+<body>
+ <div id="webwrapper">
+    <div id="header">
+        <div id="left_block"></div>
+        <div id="center_block">
+            <div id="center1"></div>
+            <div id="center2"></div>
+          <div id="center3"></div>
+        </div>
+        <div id="right_block">
+            <div id="right1"></div>
+            <div id="right2"></div>
+        </div>
+    </div>
+  <div id="mid_content">
+      <div id="big_spacer"></div>
+      <div id="content">
+
+
+        <div id="galleria">
+            <a href="http://www.youtube.com/watch?v=GCZrz8siv4Q"><img src="/img/thumb1.jpg"></a>
+            <a href="http://vimeo.com/12309423"><span class="video">Watch this on Vimeo!</span></a>
+        </div>
+
+
+      </div>
+    <div id="big_spacer"></div>
+    <div id="content_right">
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Home</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Pictures</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Videos</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Our Story</p>
+        </div>
+        <div id="link_blck">
+            <p style="color: white; font-family:'Comic Sans MS', cursive; font-size:24px; text-align: center;">Upload</p>
+        </div>
+        <div id="random_blck"></div>
+    </div>
+      <div id="big_spacer2"></div>
+  </div>
+  <div id="lower_spacer">
+      <div id="lower1"></div>
+    <div id="lower2"></div>
+    <div id="lower3"></div>
+  </div>
+ </div>
+ <div id="content_lower">
+     <div id="bottom_left">
+         <div id="bot1_LTop"></div>
+        <div id="bot1_MTop"></div>
+        <div id="bot1_RTop"></div>
+        <div id="bot1_Mid"></div>
+        <div id="bot1_LBot"></div>
+        <div id="bot1_MBot"></div>
+        <div id="bot1_RBot"></div>
+     </div>
+     <div id="bottom_right">
+         <div id="bot2_LTop"></div>
+        <div id="bot2_MTop"></div>
+        <div id="bot2_RTop"></div>
+        <div id="bot2_Mid"></div>
+        <div id="bot2_LBot"></div>
+        <div id="bot2_MBot"></div>
+        <div id="bot2_RBot"></div>
+    </div>
+ </div>
+ <div id="footer">
+     <p style="text-align:center; color: white;">Phone: 123-456-7890 | E-Mail: name@gmail.com
+    </p>
+ </div>
+</body>
+</html>

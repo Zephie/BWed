@@ -1,0 +1,15 @@
+Remember: resolve via c-name to the github address we're using
+
+--Me--
+footer
+text w/ thanks
+Picture w/ text on Our Story page
+upload  feature eventually
+
+--You--
+Put a slideshow on front page
+Put gallery(Galleria) on picture page
+video on video page(when fixed)
+Simple page transition(similar to site shown)
+
+PICTURES branches into Honeymoon and Wedding photos!!

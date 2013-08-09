@@ -5,7 +5,17 @@
     <title>RBWed</title>
 
     <link href="./css/main.css" rel="stylesheet" type="text/css">
+
     <link type="text/css" rel="stylesheet" href="./css/galleria.css">
+    <link type="text/css" rel="stylesheet" href="./js/galleria/themes/classic/galleria.classic.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="./js/galleria/galleria-1.2.9.min.js"></script>    
+    <script>
+
+        Galleria.loadTheme('./js/galleria/themes/classic/galleria.classic.min.js');
+        Galleria.run('#galleria');
+
+    </script>
 </head>
 
 <body>
@@ -25,7 +35,15 @@
 	</div>
   <div id="mid_content">
   	<div id="big_spacer"></div>
-    <div id="content"></div>
+    <div id="content">
+
+
+        <div id="galleria">
+            <img src="https://raw.github.com/Zephie/BWed/gh-pages/img/img1.jpg" data-title="My title" data-description="My description">
+            <img src="https://raw.github.com/Zephie/BWed/gh-pages/img/img2.jpg" data-title="Another title" data-description="My <em>HTML</em> description">
+        </div>
+    
+    </div>
     <div id="big_spacer"></div>
     <div id="content_right">
     	<div id="link_blck">

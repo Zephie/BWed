@@ -1,0 +1,209 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+body {
+	background-color: #646464;
+	background-repeat: repeat-x;
+	background-image: url(./img/RB_Background.png);
+}
+#webwrapper #mid_content #content_right #link_blck p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+}
+#webwrapper #mid_content #content_right #link_blck p a {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+#webwrapper #mid_content #content_right #link_blck p a:hover {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ff95df;
+}
+
+
+
+#header {
+	height: 81px;
+	width: 975px;
+	background: transparent;
+}
+#header #left_block {
+	height: 81px;
+	width: 30px;
+	float: left;
+}
+#header #center_block {
+	height: 81px;
+	width: 670px;
+	float: left;
+}
+#header #right_block {
+	float: left;
+	height: 81px;
+	width: 275px;
+	background-image: url(./img/RB_DateBlock.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#header #center_block #center1 {
+	float: left;
+	height: 60px;
+	width: 185px;
+	margin-top: 21px;
+	background-image: url(./img/RB_Swirl.png);
+}
+
+#header #center_block #center2 {
+	background-image: url(./img/RB_Ryan+Jaimie.png);
+	float: left;
+	height: 60px;
+	width: 300px;
+	margin-top: 21px;
+}
+#header #center_block #center3 {
+	float: left;
+	height: 60px;
+	width: 185px;
+	margin-top: 21px;
+	background-image: url(./img/RB_Swirl2.png);
+}
+
+#header #right_block #right2 {
+	float: left;
+	height: 11px;
+	width: 100px;
+	margin-top: 70px;
+}
+
+#header #right_block #right1 {
+	float: left;
+	height: 11px;
+	width: 175px;
+	margin-top: 70px;
+}
+#webwrapper {
+	height: 100%;
+	width: 975px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: no-repeat;
+	background-image: url(./img/RB_Doves.png);
+}
+#webwrapper #mid_content {
+	height: 500px;
+	width: 975px;
+}
+#webwrapper #mid_content #big_spacer {
+	float: left;
+	height: 500px;
+	width: 24px;
+}
+#webwrapper #mid_content #content {
+	float: left;
+	height: 500px;
+	width: 670px;
+	background-image: url(./img/RB_ContentBox.png);
+	background-color: #202020;
+}
+#webwrapper #mid_content #content_right {
+	float: left;
+	height: 500px;
+	width: 145px;
+	background-image: url(./img/RB_SideCon.png);
+	background-position: top;
+	background-color: #202020;
+}
+#webwrapper #mid_content #content_right #link_blck {
+	height: 67px;
+	width: 145px;
+	padding-top: 33px;
+}
+
+#webwrapper #mid_content #big_spacer2 {
+	float: left;
+	height: 500px;
+	width: 97px;
+	background-image: url(./img/RB_Flowers.png);
+}
+#webwrapper #mid_content #content_right #random_blck {
+	height: 5px;
+	width: 145px;
+}
+#lower_spacer {
+	height: 81px;
+	width: 975px;
+}
+#webwrapper #lower_spacer #lower1 {
+	height: 81px;
+	width: 365px;
+	float: left;
+	background-image: url(./img/RB_Swirl3.png);
+	background-repeat: no-repeat;
+}
+
+#webwrapper #lower_spacer #lower2 {
+	height: 81px;
+	width: 365px;
+	float: left;
+	background-image: url(./img/RB_Swirl4.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+#webwrapper #lower_spacer #lower3 {
+	height: 81px;
+	width: 245px;
+	float: left;
+}
+#content_lower {
+	height: 300px;
+	width: 100%;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	background-color: #202020;
+	background-image: url(./img/RB_LowerBorder.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#content_lower #lower_content1 {
+	background-color: #2C2C2C;
+	height: 300px;
+	width: 50%;
+	border-left-style: none;
+	float: left;
+	border-right-width: 5px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	margin-top: 15px;
+}
+
+#content_lower #lower_content2 {
+	background-color: #2C2C2C;
+	height: 300px;
+	width: 49.7%;
+	float: left;
+	margin-top: 15px;
+}
+
+#footer {
+	background-color: #333;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	vertical-align: baseline;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	background-image: url(./img/RB_FooterBorder.png);
+}
