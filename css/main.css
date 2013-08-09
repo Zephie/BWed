@@ -12,7 +12,7 @@ img {
 body {
 	background-color: #646464;
 	background-repeat: repeat-x;
-	background-image: url(./img/RB_Background.png);
+	background-image: url(../img/RB_Background.png);
 }
 #webwrapper #mid_content #content_right #link_blck p {
 	font-family: "Comic Sans MS", cursive;
@@ -54,7 +54,7 @@ body {
 	float: left;
 	height: 81px;
 	width: 275px;
-	background-image: url(./img/RB_DateBlock.png);
+	background-image: url(../img/RB_DateBlock.png);
 	background-repeat: no-repeat;
 	background-position: left;
 }
@@ -63,11 +63,11 @@ body {
 	height: 60px;
 	width: 185px;
 	margin-top: 21px;
-	background-image: url(./img/RB_Swirl.png);
+	background-image: url(../img/RB_Swirl.png);
 }
 
 #header #center_block #center2 {
-	background-image: url(./img/RB_Ryan+Jaimie.png);
+	background-image: url(../img/RB_Ryan+Jaimie.png);
 	float: left;
 	height: 60px;
 	width: 300px;
@@ -78,7 +78,7 @@ body {
 	height: 60px;
 	width: 185px;
 	margin-top: 21px;
-	background-image: url(./img/RB_Swirl2.png);
+	background-image: url(../img/RB_Swirl2.png);
 }
 
 #header #right_block #right2 {
@@ -100,7 +100,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	background-repeat: no-repeat;
-	background-image: url(./img/RB_Doves.png);
+	background-image: url(../img/RB_Doves.png);
 }
 #webwrapper #mid_content {
 	height: 500px;
@@ -115,14 +115,14 @@ body {
 	float: left;
 	height: 500px;
 	width: 670px;
-	background-image: url(./img/RB_ContentBox.png);
+	background-image: url(../img/RB_ContentBox.png);
 	background-color: #202020;
 }
 #webwrapper #mid_content #content_right {
 	float: left;
 	height: 500px;
 	width: 145px;
-	background-image: url(./img/RB_SideCon.png);
+	background-image: url(../img/RB_SideCon.png);
 	background-position: top;
 	background-color: #202020;
 }
@@ -136,7 +136,7 @@ body {
 	float: left;
 	height: 500px;
 	width: 97px;
-	background-image: url(./img/RB_Flowers.png);
+	background-image: url(../img/RB_Flowers.png);
 }
 #webwrapper #mid_content #content_right #random_blck {
 	height: 5px;
@@ -150,7 +150,7 @@ body {
 	height: 81px;
 	width: 365px;
 	float: left;
-	background-image: url(./img/RB_Swirl3.png);
+	background-image: url(../img/RB_Swirl3.png);
 	background-repeat: no-repeat;
 }
 
@@ -158,7 +158,7 @@ body {
 	height: 81px;
 	width: 365px;
 	float: left;
-	background-image: url(./img/RB_Swirl4.png);
+	background-image: url(../img/RB_Swirl4.png);
 	background-position: right top;
 	background-repeat: no-repeat;
 }
@@ -173,7 +173,7 @@ body {
 	border-top-style: solid;
 	border-top-color: #FFF;
 	background-color: #202020;
-	background-image: url(./img/RB_LowerBorder.png);
+	background-image: url(../img/RB_LowerBorder.png);
 	background-repeat: repeat-x;
 	background-position: top;
 }
@@ -205,5 +205,5 @@ body {
 	vertical-align: baseline;
 	border-bottom-style: solid;
 	border-bottom-color: #000;
-	background-image: url(./img/RB_FooterBorder.png);
+	background-image: url(../img/RB_FooterBorder.png);
 }
